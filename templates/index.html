@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<h1 class="creating-list">
+    Create your to-do list below
+</h1>
+<form class="take-list">
+    <input type="text" id="task" placeholder="Enter a new task">
+    <button type="submit">Add Task</button>
+</form>
+
+<div class="todo-list">
+    <ul id="task-list">
+        {% for task in tasks %}
+        <li>
+            <input type="checkbox" name="completed" value="{{ loop.index }}" {% if task.completed %}checked{% endif %}>
+            {{ task.text }}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+{% endblock %}

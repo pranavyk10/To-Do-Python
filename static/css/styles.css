@@ -1,0 +1,85 @@
+/* 
+font-family: 'Abril Fatface', serif;
+font-family: 'Abril Fatface', serif;
+
+font-family: 'Nanum Myeongjo', serif; */
+
+.navbar{
+    background-color: #000000;
+    color: #000000;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-brand{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #D80032;
+}
+
+.nav-item, .nav-link{
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.creating-list{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.take-list{
+    padding-top: 3rem;
+    padding-left: 2rem
+}
+
+
+/* LOGIN PAGE */
+.login-page{
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.login-text{
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.email-user, .password-user{
+    padding-bottom: 2rem;
+}
+
+.button-login{
+    margin-bottom: 2rem;
+}
+
+.forgot{
+    text-decoration: none;
+}
+
+
+
+/* REGISTER PAGE */
+
+.register-page{
+    text-align: center;
+}
+
+.register-text{
+    font-weight: bold;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+    padding-left: 38rem;
+    text-align: left; /* Left-align the content within each form group */
+}
